@@ -1,0 +1,10 @@
+官方文档： https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+
+主要：
+- k get pods | grep xx
+- k describe service/hello-minikube
+- k apply -f schooner.yaml
+- k logs -f hello-minikube-6ddfcc9757-k644f
+- k port-forward service/hello-minikube 8080:8080
+- k delete -f schooner.yaml
+- k edit deploy xx
