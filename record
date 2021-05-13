@@ -4,4 +4,25 @@ Kubernetes: 容器编排
     - Management
     - Scaling
     - Networking
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+What is k8s?
+- open source orchestration container tool
+ps: container could be docker containers or from some other technology
+- helps you managed containerized applications in diff envi
+
+~~~~~~~~~~~~~~~~
+Node
+
+~~~~~~~~~~~~~~~~
+Pod:
+- Smallest unit of K8s
+- Abstraction over container
+- Usually 1 application per Pod, or with some help container, side service
+- Each Pod gets its own IP address
+- New IP address on re-creation
+
+~~~~~~~~~~~~~~~~
+Service:
+- permanent IP address
+- lifecycle of Pod and Service NOT connected
 

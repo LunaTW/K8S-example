@@ -8,3 +8,12 @@
 - k port-forward service/hello-minikube 8080:8080
 - k delete -f schooner.yaml
 - k edit deploy xx
+
+Minikube:
+- k get nodes
+- minikube status
+- minikube start
+- k get pod
+- k get services
+- kubectl get deployment
+- kubectl get replicaset
